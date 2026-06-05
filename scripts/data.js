@@ -9,7 +9,7 @@ const LANGUAGES = [
     },
     {
         id: "be",
-        name: "Беларуская"
+        name: "Беларуская (Bielaruskaja)"
     },
     {
         id: "ua",
