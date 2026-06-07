@@ -98,7 +98,7 @@ function createSidebar(){
         button.className = "class-item";
 
         button.textContent =
-            classId;
+            get(`class.${classId}.name`);
 
         button.onclick =
             () => openClass(classId);
