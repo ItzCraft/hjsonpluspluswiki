@@ -17,6 +17,13 @@ function createLanguageSelector(){
     });
 }
 
+function renderHome(){
+    document.getElementById("pageContent").innerHTML = `
+        <h1>${get("home.title")}</h1>
+        <p>${get("home.description")}</p>
+    `;
+}
+
 async function openClass(classId){
 
     currentClass = classId;
