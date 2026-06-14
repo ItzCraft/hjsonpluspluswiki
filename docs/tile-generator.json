@@ -1,0 +1,10 @@
+{
+    "id": "tile-generator",
+    "fields": [
+        {
+            "name": "filter",
+            "type": "Seq<Block>",
+            "note": "notes.filter"
+        }
+    ]
+}

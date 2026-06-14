@@ -1,0 +1,25 @@
+{
+    "id": "accel-item-turret",
+    "fields": [
+        {
+            "name": "speed-up-per-shot",
+            "type": "Float",
+            "note": "notes.speed-up-per-shot"
+        },
+        {
+            "name": "max-accel",
+            "type": "Float",
+            "note": "notes.max-accel"
+        },
+        {
+            "name": "cooldown-speed",
+            "type": "Float",
+            "note": "notes.cooldown-speed"
+        },
+        {
+            "name": "cooldown-interval",
+            "type": "Float",
+            "note": "notes.cooldown-interval" 
+        }
+    ]
+}
