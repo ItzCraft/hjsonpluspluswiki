@@ -1,0 +1,15 @@
+{
+    "id": "multi-recipe-crafter",
+    "fields": [
+        {
+            "name": "recipes",
+            "type": "Sequence",
+            "note": "notes.recipes"
+        },
+        {
+           "name": "recipes-unique-drawers",
+           "type": "Boolean",
+           "note": "notes.recipes-unique-drawers"
+        }
+    ]
+}
