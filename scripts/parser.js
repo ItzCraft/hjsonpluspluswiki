@@ -1,7 +1,28 @@
 let currentClass = null;
 
+const menuButton = document.getElementById("menuButton");
+const sidebar = document.querySelector(".sidebar");
+const overlay = document.getElementById("overlay");
 const languageSelect =
     document.getElementById("languageSelect");
+
+function openMenu(){
+    sidebar.classList.add("open");
+    overlay.classList.add("show");
+}
+
+function closeMenu(){
+    sidebar.classList.remove("open");
+    overlay.classList.remove("show");
+}
+
+if(menuButton){
+    menuButton.addEventListener("click", openMenu);
+}
+
+if(overlay){
+    overlay.addEventListener("click", closeMenu);
+}
 
 function createLanguageSelector(){
 
@@ -121,8 +142,12 @@ function createSidebar(){
 
             button.textContent = name;
 
-            button.onclick =
-                () => openClass(classId);
+            button.onclick = () => {
+                openClass(classId);
+                if(window.innerWidth <= 768){
+                    closeMenu();
+                }
+            };
 
             list.appendChild(button);
         });
