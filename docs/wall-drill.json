@@ -1,0 +1,20 @@
+{
+    "id": "wall-drill",
+    "fields": [
+        {
+            "name": "rotator-bottom-region",
+            "type": "TextureRegion",
+            "note": "notes.rotator-bottom-region"
+        },
+        {
+            "name": "rotator-region",
+            "type": "TextureRegion",
+            "note": "notes.rotator-region"
+        },
+        {
+            "name": "top-region",
+            "type": "TextureRegion",
+            "note": "notes.top-region"
+        }
+    ]
+}
