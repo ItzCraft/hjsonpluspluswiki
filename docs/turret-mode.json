@@ -73,13 +73,8 @@
         },
         {
             "name": "mode-pattern",
-            "type": "Sound",
+            "type": "ShootPattern",
             "note": "notes.mode-pattern"
-        },
-        {
-            "name": "mode-icon",
-            "type": "TextureRegion",
-            "note": "notes.mode-icon"
         }
     ]
 }
